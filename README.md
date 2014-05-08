@@ -1,7 +1,7 @@
 PyVk
 ====
 
-###Python wrapper for [VK](vk.com) API
+###Python wrapper for [VK](http://vk.com) API
 
 ####Usage example:
     from VkApi import VkApi
