@@ -4,10 +4,11 @@ PyVk
 ###Python wrapper for [VK](http://vk.com) API
 
 ####Usage example:
-    from VkApi import VkApi
-	api = VkApi(client_id=3869166, scope=['offline', 'audio'], console_auth=True, keep_token=True)
-	api.request('audio.get')
-    
+```python
+from VkApi import VkApi
+api = VkApi(client_id=3869166, scope=['offline', 'audio'], console_auth=True, keep_token=True)
+api.request('audio.get')
+```
 ####Constructor arguments:
 * _client_id=0_: VK API app identifier.
 * _scope=[]_: API methods groups app can call
